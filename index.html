@@ -7,20 +7,60 @@
     <title>:CSS SELECTORS:</title>
 </head>
 <body>
-    <h1 >--------:TYPES PSEUDO-CLASS SELECTOR:-------</h1>
+    <h1>--------:TYPES PSEUDO-CLASS SELECTOR:-------</h1>
     <p>Selects elements in a specific state</p>
+    <ul>
+        <li><h2>Structural Pseudo-classes</h2></li>
+    </ul>
+        <ol>
+        <li>:first-child: Selects the first child of a parent element.</li>
+        <li>:last-child: Selects the last child of a parent element</li>
+        <li>:nth-child(n): Selects the nth child of a parent element.</li>
+        <li>:nth-of-type(n): Selects the nth child of a specific type within a parent.</li>
+        <li>:first-of-type: Selects the first child of a specific type within a parent.</li>
+        <li>:last-of-type: Selects the last child of a specific type within a parent.</li>
+        <li>:only-of-type: Selects an element that is the only child of its type within its parent.</li>
+        <li>:empty: Selects elements that have no children (including text nodes).</li>
+        </ol>
+    
+    <ul>
+        <li><h2>Link Pseudo-classes</h2></li>
+    </ul>
+        <ol>
+        <li>:link: Selects unvisited links</li>
+        <li>:visited: Selects visited links.</li>
+        <li>:hover: Selects elements when the user designates them (e.g., by placing a cursor over them).</li>
+        <li>:active: Selects elements when they are being activated (e.g., during a mouse click).</li>
+        </ol>
+    <ul>
+    <li><h2>Form Pseudo-classes</h2></li>
+    </ul>
     <ol>
-        <li>:hover: Applies when the user designates an element (e.g., by placing a cursor over it).</li>
-        <li>:active: Applies while an element is being activated (e.g., during a mouse click).</li>
-        <li>:focus: Applies while an element has focus (e.g., a form input).</li>
-        <li>:visited: Applies once a link has been visited.</li>
-        <li>:first-child: Applies to the first child of a parent element.</li>
-        <li>:last-child: Applies to the last child of a parent element.</li>
-        <li>:nth-child(n): Applies to the nth child of a parent element.</li>
-        <li>:not(selector): Applies to elements that do not match the selector.</li>
-        <li>:checked: Applies to elements that are checked (e.g., checkboxes or radio buttons).</li>
-        <li>:disabled: Applies to elements that are disabled.</li>
-        <li>Combining Pseudo-classes</li>
+    <li>:focus: Selects elements that have focus.</li>
+    <li>:enabled: Selects enabled form elements.</li>
+    <li>:disabled: Selects disabled form elements</li>
+    <li>:checked: Selects checked elements (e.g., checkboxes or radio buttons)</li>
+    <li>:indeterminate: Selects elements that are in an indeterminate state.</li>
+    <li>:placeholder-shown: Selects input elements that are displaying placeholder text</li>
+    <li>:valid: Selects elements with valid contents</li>
+    <li>:invalid: Selects elements with invalid contents.</li>
+    <li>:in-range: Selects elements with values within a specified range.</li>
+    <li>:out-of-range: Selects elements with values outside a specified range</li>
     </ol>
+    <ul>
+    <li><h2>Other Pseudo-classes</h2></li>
+    </ul>
+    <ol>
+    <li>:not(selector): Selects elements that do not match the selector.</li>
+    <li>:root: Selects the document’s root element</li>
+    <li>:lang(language): Selects elements with a specific language attribute.</li>
+    <li>:target: Selects the target element of a URL containing a fragment identifier</li>
+    <li>:nth-last-child(n): Selects the nth child from the end of a parent element.</li>
+    <li>:nth-last-of-type(n): Selects the nth child of a specific type from the end of a parent element.</li>
+    <li>:dir(direction): Selects elements based on the directionality of the text.</li>
+    <li>:fullscreen: Selects elements that are in fullscreen mode</li>
+    <li>:read-only: Selects elements that are read-only</li>
+    <li>:read-write: Selects elements that are editable.</li>
+</ol>
 </body>
 </html>
