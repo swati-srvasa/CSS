@@ -1,8 +1,12 @@
-p:only-of-type {
-  color: teal;
-}
-
-p:empty {
-  display: none;
-}
-
+a:link {
+    color: blue;
+  }
+  a:visited {
+    color: purple;
+  }
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: green;
+  }
