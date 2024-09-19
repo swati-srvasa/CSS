@@ -1,12 +1,33 @@
-a:link {
-    color: blue;
+/* Form pseudo-classes */
+input:focus {
+    border-color: rgb(9, 0, 128);   
   }
-  a:visited {
-    color: purple;
+  input:enabled {
+    background-color: white;
   }
-  a:hover {
-    color: red;
+  input:disabled {
+    background-color: gray;
   }
-  a:active {
-    color: green;
+  input:checked {
+    background-color: yellow;
   }
+  input:indeterminate {
+    background-color: lightgray;
+  }
+  input:placeholder-shown {
+    color: gray;
+  }
+  input:valid {
+    border-color: rgb(244, 12, 171);
+  }
+  input:invalid {
+    border-color: red;
+  }
+  input:in-range {
+    border-color: blue;
+  }
+  input:out-of-range {
+    border-color: orange;
+  }
+
+  

@@ -10,16 +10,60 @@
     <h1>--------:TYPES PSEUDO-CLASS SELECTOR:-------</h1>
     <p>Selects elements in a specific state</p>
     <ul>
-       <li><h2>Link Pseudo-classes</h2></li>
+        <li><h2>Form Pseudo-classes</h2></li>
     </ul>
-        <ol>
-        <li>:link: Selects unvisited links</li>
-        <li>:visited: Selects visited links.</li>
-        <li>:hover: Selects elements when the user designates them (e.g., by placing a cursor over them).</li>
-        <li>:active: Selects elements when they are being activated (e.g., during a mouse click).</li>
-        </ol>
-    <a href="https://example.com">Visit Example.com</a>
-      
+    <ol>
+    <li>:focus: Selects elements that have focus.</li>
+    <li>:enabled: Selects enabled form elements.</li>
+    <li>:disabled: Selects disabled form elements</li>
+    <li>:checked: Selects checked elements (e.g., checkboxes or radio buttons)</li>
+    <li>:indeterminate: Selects elements that are in an indeterminate state.</li>
+    <li>:placeholder-shown: Selects input elements that are displaying placeholder text</li>
+    <li>:valid: Selects elements with valid contents</li>
+    <li>:invalid: Selects elements with invalid contents.</li>
+    <li>:in-range: Selects elements with values within a specified range.</li>
+    <li>:out-of-range: Selects elements with values outside a specified range</li>
+    </ol>
+    <ul>
+      <li><h1>Other pseudo</h1></li>
+    </ul>
+    <ol>
+    <li>:not(selector): Selects elements that do not match the selector.</li>
+    <li>:root: Selects the document’s root element</li>
+    <li>:lang(language): Selects elements with a specific language attribute.</li>
+    <li>:target: Selects the target element of a URL containing a fragment identifier</li>
+    <li>:nth-last-child(n): Selects the nth child from the end of a parent element.</li>
+    <li>:nth-last-of-type(n): Selects the nth child of a specific type from the end of a parent element.</li>
+    <li>:dir(direction): Selects elements based on the directionality of the text.</li>
+    <li>:fullscreen: Selects elements that are in fullscreen mode</li>
+    <li>:read-only: Selects elements that are read-only</li>
+    <li>:read-write: Selects elements that are editable.</li>
+  </ol>
+   <!-- Form pseudo-classes -->
+  <form>
+    <input type="text" placeholder="Enter text" required>
+    <input type="text" placeholder="Disabled input" disabled>
+    <input type="checkbox" checked>
+    <input type="checkbox" indeterminate>
+    <input type="number" min="1" max="10" value="5">
+    <input type="number" min="1" max="10" value="15">
+  </form>
+
+  <!-- Other pseudo-classes -->
+  <p class="highlight">This paragraph is highlighted.</p>
+  <p>This paragraph is not highlighted.</p>
+  <p lang="en">This paragraph is in English.</p>
+  <div id="section">This is a target section.</div>
+  <ul>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+  </ul>
+  <p>First paragraph</p>
+  <p>Second paragraph</p>
+  <p dir="rtl">This text is right-to-left.</p>
+  <input type="text" readonly value="Read-only input">
+  <input type="text" value="Editable input">
       
 
        
