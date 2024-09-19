@@ -6,4 +6,8 @@
     background-color: aquamarine;
     display:inline-block;
 }
+#box1{
+  visibility:hidden;
+
+}
 
