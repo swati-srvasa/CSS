@@ -1,3 +1,4 @@
-p:last-child{
+li:nth-child(2){
     color:blue;
 }
+/* also use (even,odd) */
