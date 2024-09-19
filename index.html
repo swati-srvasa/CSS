@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>:BOX MODEL:</title>
+    <title>Overflow Properties Example</title>
 </head>
 <body>
-<div>Hello world</div>
-<div class="content-box-example">
-    This box uses content-box.
-</div>
-<div class="border-box-example">
-    This box uses border-box.
-</div>
+    <div class="box overflow-visible">
+        <p>This is a box with overflow: visible. The content is not clipped and may overflow outside the box.</p>
+        <p>This is some extra content to demonstrate overflow.</p>
+    </div>
+    <div class="box overflow-hidden">
+        <p>This is a box with overflow: hidden. The content is clipped and not visible outside the box.</p>
+        <p>This is some extra content to demonstrate overflow.</p>
+    </div>
+    <div class="box overflow-scroll">
+        <p>This is a box with overflow: scroll. Scrollbars are added to view the overflowing content.</p>
+        <p>This is some extra content to demonstrate overflow.</p>
+    </div>
+    <div class="box overflow-auto">
+        <p>This is a box with overflow: auto. Scrollbars are added only if necessary.</p>
+        <p>This is some extra content to demonstrate overflow.</p>
+    </div>
 </body>
 </html>
