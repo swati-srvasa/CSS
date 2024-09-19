@@ -1,33 +1,31 @@
-/* Form pseudo-classes */
-input:focus {
-    border-color: rgb(9, 0, 128);   
-  }
-  input:enabled {
-    background-color: white;
-  }
-  input:disabled {
-    background-color: gray;
-  }
-  input:checked {
-    background-color: yellow;
-  }
-  input:indeterminate {
-    background-color: lightgray;
-  }
-  input:placeholder-shown {
-    color: gray;
-  }
-  input:valid {
-    border-color: rgb(244, 12, 171);
-  }
-  input:invalid {
-    border-color: red;
-  }
-  input:in-range {
-    border-color: blue;
-  }
-  input:out-of-range {
-    border-color: orange;
-  }
-
+    /* Pseudo-element selector for the first line of a paragraph */
+    p::first-line {
+        font-weight: bold;
+        color: blue;
+      }
   
+      /* Pseudo-element selector for the first letter of a paragraph */
+      p::first-letter {
+        font-size: 45px;
+        color: purple;
+      }
+  
+      /* Pseudo-element selector to insert content before an element */
+      h1::before {
+        content: "Chapter: ";
+        font-weight: bold;
+        color: red;
+      }
+  
+      /* Pseudo-element selector to insert content after an element */
+      h1::after {
+        content: " - End";
+        font-weight: bold;
+        color: green;
+      }
+  
+      /* Pseudo-element selector for placeholder text in input fields */
+      input::placeholder {
+        color: red;
+        font-style: italic;
+      }
