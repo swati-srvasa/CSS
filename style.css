@@ -1,7 +1,8 @@
-p:last-of-type {
-    color: green;
-    
-  }
-  
+p:only-of-type {
+  color: teal;
+}
 
-  
+p:empty {
+  display: none;
+}
+
