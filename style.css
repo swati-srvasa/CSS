@@ -1,31 +1,3 @@
-    /* Pseudo-element selector for the first line of a paragraph */
-    p::first-line {
-        font-weight: bold;
-        color: blue;
-      }
-  
-      /* Pseudo-element selector for the first letter of a paragraph */
-      p::first-letter {
-        font-size: 45px;
-        color: purple;
-      }
-  
-      /* Pseudo-element selector to insert content before an element */
-      h1::before {
-        content: "Chapter: ";
-        font-weight: bold;
-        color: red;
-      }
-  
-      /* Pseudo-element selector to insert content after an element */
-      h1::after {
-        content: " - End";
-        font-weight: bold;
-        color: green;
-      }
-  
-      /* Pseudo-element selector for placeholder text in input fields */
-      input::placeholder {
-        color: red;
-        font-style: italic;
-      }
+div p{
+    color:blue;
+}
